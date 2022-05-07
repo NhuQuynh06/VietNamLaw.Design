@@ -1299,7 +1299,7 @@
         line-height: 20px;
         color: #6c757d;
         background: #ffffff;
-        border: 1px solid #cccccc;
+        border: 1px solid #DEE2E6;
         width: 100%;
         padding: 12px 16px;
     }
@@ -1486,7 +1486,7 @@
         margin-top: 20px;
 
         .comment.inner-comment {
-            border-top: 1px solid #ddd;
+            border-top: 1px solid #DEE2E6;
             padding-top: $spacer-3;
             margin-top: $spacer-3;
 
@@ -1582,20 +1582,21 @@
     }
 
     .btn.btn-link {
-        font-family: 'Quicksand';
+        font-family: "Quicksand";
         font-size: 16px;
         line-height: 20px;
-        background: #e21f26;
+        background: #e21f26 url(../img/arrow-down_ver2.png) center right 17px/11px no-repeat;
         padding: 13px 20px;
-        font-weight: $font-weight-semibold;
+        font-weight: 600;
         text-transform: uppercase;
-        color: #ffffff;
+        color: #fff;
         display: flex;
         align-items: center;
         margin: 0 auto;
         border-radius: 0;
-
+        padding-right: 42px;
     }
+
 
     // .btn-Submit,
     .btnSubmit {
