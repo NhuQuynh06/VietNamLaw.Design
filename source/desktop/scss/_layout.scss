@@ -85,4 +85,48 @@
             width: 957px;
         }
     }
+
+}
+
+.cate-page,
+.tags-page {
+    .col-wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+
+        .main-col {
+            width: 952px;
+        }
+
+        .sub-col {
+            width: 300px;
+
+            >* {
+                &:first-child {
+                    margin-top: 0;
+                }
+            }
+        }
+    }
+}
+
+.tags-page,
+.search-page {
+    .zone-1 {
+        padding-top: 0;
+        border-top: none;
+
+        .rank-1 {
+            width: 954px;
+        }
+
+        .rank-2 {
+            width: 300px;
+        }
+    }
+
+    .wrap-tags {
+        margin-bottom: 50px;
+    }
 }
